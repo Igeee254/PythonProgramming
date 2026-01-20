@@ -1,0 +1,11 @@
+		##shopping cart program
+
+
+item = input("Enter the item you want to buy")
+price = int(input("Enter the cost of the item"))
+quantity  =  int(input("How many of those do you need?"))
+
+
+total_cost = price * quantity
+print(f" Your total amount is {total_cost}")
+print(thank you  for your visit)
