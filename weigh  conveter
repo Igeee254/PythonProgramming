@@ -1,0 +1,18 @@
+
+    #simplwe python weigh conveter
+
+
+weight = float(input("What is your weight?: "))
+unit = input("Kgs or Pounds: ")
+
+if  unit == "Kgs":
+	weight = (weight * 1000)
+	unit = "Pounds"
+	print(f"Your weight in Pounds is {weight}gramms") 
+elif unit== "Pounds":
+			weight = weight / 1000
+			unit=  "Kgs"
+			print(f"Your weight in Kgs is {weight} Kgs")
+
+else:
+	print(f"stop wasting my time")
